@@ -1,0 +1,66 @@
+id,price_cents,size,product,url,checked_at,note
+long_grain_rice,355,32 oz,"Simply Nature Organic White Rice, 2 lb (32 oz)",https://www.aldi.us/product/simply-nature-organic-white-rice-0000000000001230,2026-09-27T07:48+00:00,
+brown_rice,,32 oz,"Simply Nature Organic White Rice, 2 lb",https://www.aldi.us/en/grocery-home/aldi-brands/simplynature/pantry/pantry-detail/ps/p/simplynature-organic-white-rice/,2026-09-27T07:48+00:00,"removed: matched 'Simply Nature Organic White Rice, 2 lb' which is not this item"
+rolled_oats,439,42 oz,Millville Old Fashioned Rolled Oats,https://www.aldi.us/store/aldi/products/18647728-millville-hearty-100-whole-grain-old-fashioned-rolled-oats-42-oz,2026-09-27T07:48+00:00,
+spaghetti,219,16 oz,Simply Nature Organic Spaghetti,https://www.aldi.us/landing?postal_code=67570&product_id=18648690&region_id=%7Bstore_code%7D&retailer_id=12,2026-09-27T07:48+00:00,
+elbow_macaroni,,,,,2026-09-27T07:55+00:00,not found
+all_purpose_flour,215,5 lb,Baker's Corner All Purpose Flour,https://www.aldi.us/store/aldi/products/18648338-baker-s-corner-all-purpose-flour-5-lb,2026-09-27T07:55+00:00,
+dried_black_beans,,,,,2026-09-27T07:55+00:00,not found
+dried_pinto_beans,215,32 oz,Pueblo Lindo Gluten Free High Fiber Pinto Beans,https://www.aldi.us/store/aldi/products/20003791-pueblo-lindo-pinto-beans-32-oz,2026-09-27T07:48+00:00,
+dried_lentils,155,16 oz,Dakota's Pride Green Lentils,https://www.aldi.us/store/aldi/products/20985595-dakota-s-pride-green-lentils-16-oz,2026-09-27T07:55+00:00,
+peanut_butter,165,16 oz,Peanut Delight No-Stir Creamy Peanut Butter Spread,https://www.aldi.us/store/aldi/products/27811439-peanut-delight-no-stir-creamy-peanut-butter-spread-16-oz,2026-09-27T07:48+00:00,
+soy_sauce,185,15 fl oz,Burman's Soy Sauce,https://www.aldi.us/store/aldi/products/18649296-fusia-asian-inspirations-traditionally-brewed-all-purpose-soy-sauce-15-fl-oz,2026-09-27T07:55+00:00,
+mayonnaise,319,30 fl oz,Burman's Real Mayonnaise,https://www.aldi.us/store/aldi/products/19283303-burman's-real-mayonnaise-30-fl-oz,2026-09-27T07:49+00:00,
+ketchup,235,24 oz,Simply Nature Organic Ketchup,https://www.aldi.us/landing?postal_code=74361&product_id=20112295&region_id=%7Bstore_code%7D&retailer_id=12,2026-09-27T07:55+00:00,
+white_bread,,,,,2026-09-27T07:55+00:00,lookup failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5-search-api
+flour_tortillas,215,17.5 oz,Pueblo Lindo Flour Tortillas - 10 Count,https://www.aldi.us/store/aldi/products/19630529-pueblo-lindo-flour-tortillas-17-5-oz,2026-09-27T07:49+00:00,
+corn_tortillas,215,25 oz,Pueblo Lindo White Corn Tortillas - 30 Count,https://www.aldi.us/landing?postal_code=74361&product_id=19657230&region_id=%7Bstore_code%7D&retailer_id=12,2026-09-27T07:49+00:00,
+canned_black_beans,95,15 oz,Dakota's Pride Black Beans,https://www.aldi.us/store/aldi/products/18648531-dakotas-black-beans-15-oz,2026-09-27T07:49+00:00,
+canned_pinto_beans,95,15.5 oz,Aldi Pinto Beans,https://www.aldi.us/store/aldi/products/116965589-aldi-pinto-beans-15-5-oz,2026-09-27T07:56+00:00,
+canned_kidney_beans,95,15.5 oz,Dakota's Pride Canned Dark Red Kidney Beans,https://www.aldi.us/store/aldi/products/21298198-dakota-s-pride-dark-red-kidney-beans-15-5-oz,2026-09-27T07:56+00:00,
+canned_chickpeas,95,15.5 oz,Dakota's Pride Garbanzo Beans Chick Peas,https://www.aldi.us/landing?postal_code=48075&product_id=18649153&region_id=%7Bstore_code%7D&retailer_id=12,2026-09-27T07:49+00:00,
+canned_diced_tomatoes,109,14.5 oz,Happy Harvest Diced Tomatoes,https://www.aldi.us/store/aldi/products/20752467-happy-harvest-diced-tomatoes-14-5-oz,2026-09-27T07:49+00:00,
+tomato_sauce,,,,,2026-09-27T07:56+00:00,not found
+tomato_paste,,,,,2026-09-27T07:56+00:00,lookup failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5-search-api
+canned_tuna,105,5 oz,Northern Catch Chunk Light Tuna in Water,https://www.aldi.us/landing?postal_code=67570&product_id=115250&retailer_id=12,2026-09-27T07:56+00:00,
+canned_corn,95,15.25 oz,Happy Harvest Canned Whole Kernel Golden Sweet Corn,https://www.aldi.us/store/aldi/products/20363173-happy-harvest-whole-kernel-corn-15-25-oz,2026-09-27T07:50+00:00,
+canned_green_beans,89,15 oz,"Happy Harvest Cut Green Beans, 14.5oz Beckman",https://www.aldi.us/store/aldi/products/20436016-happy-harvest-cut-green-beans-14-5-oz,2026-09-27T07:50+00:00,
+chicken_broth,139,32 oz,Chef's Cupboard Chicken Broth,https://www.aldi.us/store/aldi/products/18647945-chef-s-cupboard-chicken-broth-32-fl-oz,2026-09-27T07:50+00:00,
+salsa,275,16 oz,"Park Street Deli Fresh Cut Salsa, Medium",https://www.aldi.us/landing?postal_code=67570&product_id=19500830&retailer_id=12,2026-09-27T07:50+00:00,
+yellow_onions,265,3 lb,"Yellow Onions, Bag",https://www.aldi.us/store/aldi/products/311071-yellow-onion-3-lbs,2026-09-27T07:56+00:00,
+russet_potatoes,409,5 lb,Baking Potatoes,https://www.aldi.us/store/aldi/products/16354928-cal-ore-produce-best-available-russet-potatoes-5lb-bag-5-lb,2026-09-27T07:56+00:00,
+carrots,219,2 lb,"Carrots, Package",https://www.aldi.us/store/aldi/products/16507368-carrot-2-lbs,2026-09-27T07:50+00:00,
+bananas,49,per lb,"Bananas, per lb",https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb,2026-09-27T07:50+00:00,size not parsed; accepted on product match
+gala_apples,199,3 lb,"Gala Apples, 3 lb",https://www.aldi.us/landing?postal_code=67570&product_id=3253915&retailer_id=12,2026-09-27T07:50+00:00,
+navel_oranges,289,3 lb,"Navel Oranges, Bag",https://www.aldi.us/store/aldi/products/16865887-navel-orange-bag-3-lbs,2026-09-27T07:51+00:00,
+green_cabbage,79,per lb,"Cabbage, per lb",https://www.aldi.us/store/aldi/products/25939587-cabbage-per-lb,2026-09-27T07:51+00:00,size not parsed; accepted on product match
+roma_tomatoes,115,per lb,Roma Tomatoes,https://www.aldi.us/store/aldi/products/17763870-tomatoes-roma-per-lb,2026-09-27T07:56+00:00,size not parsed; accepted on product match
+green_bell_pepper,399,1 each,Green Bell Pepper,https://www.aldi.us/store/aldi/products/21442909-pepper-each,2026-09-27T07:57+00:00,size not parsed; accepted on product match
+celery,219,1 lb container,"Celery, each",https://www.aldi.us/store/aldi/products/16606112-celery-package-per-lb,2026-09-27T07:57+00:00,
+broccoli_crowns,215,avg. 1 lb/package,"Broccoli Crowns, per lb",https://www.aldi.us/product/broccoli-crowns-200102000001,2026-09-27T07:57+00:00,
+sweet_potatoes,299,16 oz,Specially Selected Carrots and Sweet Potato,https://www.aldi.us/store/aldi/products/25928386-specially-selected-carrots-sweet-potatoes-16-oz,2026-09-27T07:57+00:00,
+cucumbers,85,1 each,"Cucumber, each",https://www.aldi.us/store/aldi/products/3253345-cucumber-each,2026-09-27T07:51+00:00,size not parsed; accepted on product match
+iceberg_lettuce,209,1 each,"Iceberg Lettuce, each",https://www.aldi.us/landing?postal_code=67570&product_id=3293710&retailer_id=12,2026-09-27T07:51+00:00,size not parsed; accepted on product match
+frozen_spinach,,,,,2026-09-27T07:57+00:00,not found
+frozen_mixed_vegetables,,,,,2026-09-27T07:57+00:00,lookup failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5-search-api
+frozen_broccoli,125,12 oz,Season's Choice Frozen Steamed Broccoli Florets,https://www.aldi.us/store/aldi/products/26548777-season-s-choice-steamable-frozen-broccoli-florets-12-oz,2026-09-27T07:52+00:00,
+frozen_peas,109,12 oz,Season's Choice Frozen Steamed Sweet Garden Peas,https://www.aldi.us/store/aldi/products/19871879-season-s-choice-steamed-sweet-garden-peas-12-oz,2026-09-27T07:52+00:00,
+large_eggs,185,12 ct,Goldhen Large Grade A Eggs - 1 Dozen,https://www.aldi.us/store/aldi/products/115095-goldhen-grade-a-large-eggs-12-ct,2026-09-27T07:52+00:00,size not parsed; accepted on product match
+whole_milk,259,1 gal,Friendly Farms Whole Milk,https://www.aldi.us/en/products/dairy-eggs/milk-milk-substitutes/detail/ps/p/friendly-farms-whole-milk-one-half-gallon/,2026-09-27T07:58+00:00,
+plain_yogurt,285,32 oz,Friendly Farms Plain Light Nonfat Yogurt,https://www.aldi.us/store/aldi/products/20018602-friendly-farms-nonfat-plain-yogurt-32-oz,2026-09-27T07:58+00:00,
+cheddar_cheese,195,8 oz,Happy Farms Mild Cheddar Cheese Block,https://www.aldi.us/store/aldi/products/18647864-happy-farms-mild-cheddar-cheese-block-8-oz,2026-09-27T07:58+00:00,
+shredded_mozzarella,,,,,2026-09-27T07:58+00:00,not found
+butter,319,16 oz,Countryside Creamery Sweet Cream Butter - 4 Sticks (Salted),https://www.aldi.us/landing?postal_code=74361&product_id=18648084&region_id=FO36&retailer_id=12,2026-09-27T07:52+00:00,
+chicken_thighs,,,,,2026-09-27T07:59+00:00,not found
+chicken_drumsticks,,,,,2026-09-27T07:59+00:00,not found
+chicken_breast,,,,,2026-09-27T07:59+00:00,lookup failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5-search-api
+whole_chicken,,,,,2026-09-27T07:59+00:00,lookup failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5-search-api
+ground_turkey,,,,,2026-09-27T08:00+00:00,not found
+smoked_sausage,329,14 oz,Parkview Polska Kielbasa,https://www.aldi.us/landing?postal_code=67570&product_id=18649681&region_id=FO36&retailer_id=12,2026-09-27T07:53+00:00,
+sliced_turkey,375,9 oz,"Lunch Mate Oven Roasted Turkey Breast, 9 oz",https://www.aldi.us/en/products/deli/lunch-meat/detail/ps/p/lunch-mate-oven-roasted-turkey-breast/,2026-09-27T07:53+00:00,
+rotisserie_chicken,,,,,2026-09-27T08:00+00:00,not found
+deli_fried_chicken,,,,,2026-09-27T08:00+00:00,not found
+vegetable_oil,,,,,2026-09-27T08:00+00:00,lookup failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5-search-api
+salt,89,26 oz,Stonemill Iodized Salt,https://www.aldi.us/store/aldi/products/18647588-stonemill-iodized-salt-26-oz,2026-09-27T08:00+00:00,
+ground_cumin,109,2 oz,Stonemill Ground Cumin Seasoning,https://www.aldi.us/store/aldi/products/19688303-stonemill-ground-cumin-2-oz,2026-09-27T08:01+00:00,
+sugar,,,,,2026-09-27T08:01+00:00,not found

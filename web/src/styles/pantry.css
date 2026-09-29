@@ -1,0 +1,57 @@
+/* Pantry screen: one task top to bottom (type or scan -> review "On hand" chips -> Update my plan).
+   Layout and chip variants only; the base .composer, .scan-btn, .plist and .chip styles live in
+   fairfare.css and the sticky .cta-pinned lives in app.css. */
+
+.pantry-lede { margin: -6px 0 18px; font-size: 13px; }
+.pantry-scan-msg { margin: -12px 0 20px; }
+
+/* ---- "On hand" section: staples + detected items in one chip row ---- */
+.pantry-onhand { margin-bottom: 22px; }
+.pantry-onhand__head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
+.pantry-onhand__head .section-title { margin-bottom: 0; }
+.pantry-onhand__applied { display: inline-flex; align-items: center; gap: 4px; color: var(--green); font-weight: 600; white-space: nowrap; }
+.pantry-onhand__applied .ic { width: 14px; height: 14px; }
+.pantry-onhand__hint { margin-bottom: 12px; }
+.pantry-empty { width: 100%; margin-top: 8px; }
+
+/* every chip is a 44px tap target on this screen */
+.pantry .plist .chip { min-height: 44px; padding: 10px 14px; }
+
+/* staple chip: on hand by default; .off (from fairfare.css) = the user is out of it */
+.chip--staple { color: var(--ink); }
+
+/* detected / added item chip: name + level; tap cycles full -> half -> low -> removed */
+.chip--have { padding-right: 8px; gap: 8px; }
+.chip-lvl {
+  font-size: 11.5px; font-weight: 700; line-height: 1.2; padding: 3px 8px; border-radius: 20px;
+  background: color-mix(in srgb, var(--green) 12%, var(--card)); color: var(--green); white-space: nowrap;
+}
+
+/* "+ Add item" chip: the manual path, opens the search sheet */
+.chip--add { border-style: dashed; color: var(--ink-soft); font-weight: 600; }
+.chip--add .ic { width: 16px; height: 16px; }
+
+/* ---- pinned action ---- */
+.pantry-cta { margin-top: auto; padding-top: 16px; }
+.pantry-update-msg { margin-top: 8px; text-align: center; }
+.pantry-disclaim { margin-top: 12px; }
+
+/* ---- voice input: mic at the left of the composer row ---- */
+.voice-wrap { display: flex; flex-direction: column; align-items: center; gap: 2px; flex: none; }
+.voice-btn {
+  width: 44px; height: 44px; min-width: 44px; min-height: 44px; border: none; border-radius: 50%;
+  background: var(--green); color: #fff; display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer; font-size: 15px; line-height: 1;
+}
+.voice-btn .ic { width: 22px; height: 22px; }
+.voice-btn--rec { background: var(--red); animation: voice-pulse 1.6s ease-out infinite; }
+.voice-btn--off { opacity: 0.5; }
+.voice-timer { font-size: 11px; color: var(--ink-soft); text-align: center; font-variant-numeric: tabular-nums; }
+@keyframes voice-pulse {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--red) 35%, transparent); }
+  70% { box-shadow: 0 0 0 10px color-mix(in srgb, var(--red) 0%, transparent); }
+  100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--red) 0%, transparent); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .voice-btn--rec { animation: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--red) 30%, transparent); }
+}

@@ -1,0 +1,28 @@
+# Render Blueprint for the FairFare API. In the Render dashboard: New -> Blueprint -> pick this repo.
+# Set LLM_API_KEY and CORS_ORIGINS in the dashboard after the first deploy (they are marked sync: false).
+services:
+  - type: web
+    name: fairfare-api
+    runtime: python
+    plan: starter            # always-on; "free" also works but sleeps after 15 min idle
+    branch: stores
+    buildCommand: pip install -r requirements-deploy.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: APP_NAME
+        value: FairFare
+      - key: LLM_BASE_URL
+        value: https://api.openai.com/v1
+      - key: LLM_MODEL
+        value: gpt-4o-mini
+      - key: LLM_TEMPERATURE
+        value: "0.7"
+      - key: SOLVER_WORKERS
+        value: "4"
+      - key: LLM_API_KEY
+        sync: false          # paste the OpenAI key in the dashboard; never commit it
+      - key: CORS_ORIGINS
+        sync: false          # e.g. https://fairfare.vercel.app (any *.vercel.app is also allowed by regex)

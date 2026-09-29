@@ -1,0 +1,12 @@
+.env
+web/.env
+.venv/
+__pycache__/
+web/node_modules/
+web/dist/
+data/stretch.db
+data/prices_cache.json
+
+.pytest_cache/
+.claude/
+web/dist/

@@ -1,0 +1,779 @@
+[
+ {
+  "id": "banana_oatmeal_bowl",
+  "name": "Creamy banana oatmeal bowl with honey",
+  "slot": "breakfast",
+  "servings": 4,
+  "prep_min": 10,
+  "equipment": [],
+  "palatability": 4,
+  "ingredients": {
+   "rolled_oats": 200,
+   "bananas": 200,
+   "whole_milk": 400
+  },
+  "description": "This oatmeal bowl is filling and inexpensive, using just oats and bananas."
+ },
+ {
+  "id": "tuna_and_corn_sandwiches",
+  "name": "Savory tuna and corn sandwiches",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 10,
+  "equipment": [],
+  "palatability": 4,
+  "ingredients": {
+   "canned_tuna": 400,
+   "canned_corn": 200,
+   "white_bread": 400,
+   "mayonnaise": 100
+  },
+  "description": "Quick to prepare, these sandwiches are delicious and use affordable pantry staples."
+ },
+ {
+  "id": "pinto_bean_and_cabbage_wraps",
+  "name": "Pinto bean and cabbage wraps with spicy sauce",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 15,
+  "equipment": [],
+  "palatability": 4,
+  "ingredients": {
+   "canned_pinto_beans": 400,
+   "green_cabbage": 200,
+   "flour_tortillas": 200,
+   "salsa": 100
+  },
+  "description": "These wraps are budget-friendly and fill you up with beans and fresh cabbage."
+ },
+ {
+  "id": "savory_oatmeal_with_banana_and_peanut_butter",
+  "name": "Savory oatmeal topped with banana and creamy peanut butter",
+  "slot": "breakfast",
+  "servings": 2,
+  "prep_min": 10,
+  "equipment": [
+   "microwave"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "rolled_oats": 200,
+   "bananas": 200,
+   "peanut_butter": 100
+  },
+  "description": "A filling breakfast that combines oats, bananas, and peanut butter for a budget-friendly start."
+ },
+ {
+  "id": "microwave_egg_and_cheddar_wraps",
+  "name": "Microwave egg and cheddar cheese breakfast wraps",
+  "slot": "breakfast",
+  "servings": 2,
+  "prep_min": 15,
+  "equipment": [
+   "microwave"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "large_eggs": 150,
+   "flour_tortillas": 100,
+   "cheddar_cheese": 100
+  },
+  "description": "Quick and easy breakfast wraps with eggs and cheese, perfect for busy mornings."
+ },
+ {
+  "id": "black_bean_and_rice_bowl",
+  "name": "Black bean and long grain rice bowl with salsa",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 15,
+  "equipment": [
+   "microwave"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "canned_black_beans": 400,
+   "long_grain_rice": 300,
+   "salsa": 200
+  },
+  "description": "A hearty bowl featuring black beans and rice, topped with zesty salsa for flavor."
+ },
+ {
+  "id": "tuna_and_corn_salad",
+  "name": "Chunk light tuna and sweet corn salad",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 10,
+  "equipment": [
+   "microwave"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "canned_tuna": 400,
+   "canned_corn": 400,
+   "yellow_onions": 100
+  },
+  "description": "A refreshing salad with tuna and corn, making use of pantry staples for an affordable meal."
+ },
+ {
+  "id": "vegetable_stir_fry_with_rice",
+  "name": "Vegetable stir fry served over long grain rice",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 20,
+  "equipment": [
+   "microwave"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "frozen_mixed_vegetables": 400,
+   "long_grain_rice": 300,
+   "soy_sauce": 50
+  },
+  "description": "Quick and colorful stir-fried veggies over rice, using frozen ingredients for savings."
+ },
+ {
+  "id": "cheesy_pasta_with_diced_tomatoes",
+  "name": "Cheesy elbow macaroni with diced tomatoes",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 25,
+  "equipment": [
+   "microwave"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "elbow_macaroni": 300,
+   "canned_diced_tomatoes": 400,
+   "cheddar_cheese": 200
+  },
+  "description": "Creamy and cheesy pasta with tomatoes, perfect for a comforting budget meal."
+ },
+ {
+  "id": "chicken_and_rice_casserole",
+  "name": "Microwave chicken and rice casserole with broccoli",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "microwave"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "chicken_breast": 400,
+   "long_grain_rice": 300,
+   "frozen_broccoli": 200
+  },
+  "description": "A satisfying casserole of chicken, rice, and broccoli, all cooked in one dish."
+ },
+ {
+  "id": "lentil_and_cabbage_stew",
+  "name": "Hearty lentil and green cabbage stew",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 25,
+  "equipment": [
+   "microwave"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "dried_lentils": 300,
+   "green_cabbage": 200,
+   "yellow_onions": 100
+  },
+  "description": "A filling stew made with lentils and cabbage, perfect for a budget-friendly dinner."
+ },
+ {
+  "id": "vegetable_lentil_casserole",
+  "name": "Savory vegetable and lentil casserole",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "dried_lentils": 200,
+   "yellow_onions": 100,
+   "carrots": 150,
+   "canned_diced_tomatoes": 400,
+   "vegetable_oil": 30
+  },
+  "description": "A hearty dish with lentils and veggies, affordable and filling."
+ },
+ {
+  "id": "cheesy_black_bean_bake",
+  "name": "Cheesy black bean and rice bake",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "canned_black_beans": 400,
+   "long_grain_rice": 200,
+   "cheddar_cheese": 100,
+   "canned_diced_tomatoes": 200,
+   "ground_cumin": 10
+  },
+  "description": "A delicious baked dish with beans, rice, and cheese that stretches your budget."
+ },
+ {
+  "id": "spaghetti_with_tomato_sauce",
+  "name": "Classic spaghetti with homemade tomato sauce",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 25,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "spaghetti": 300,
+   "tomato_sauce": 400,
+   "yellow_onions": 100,
+   "ground_cumin": 5
+  },
+  "description": "A simple and satisfying pasta dish that's easy on the wallet."
+ },
+ {
+  "id": "vegetable_fried_rice",
+  "name": "Simple vegetable fried rice",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 20,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "long_grain_rice": 300,
+   "frozen_mixed_vegetables": 200,
+   "soy_sauce": 50,
+   "yellow_onions": 100
+  },
+  "description": "Utilize leftover rice and veggies for a quick, budget-friendly meal."
+ },
+ {
+  "id": "potato_and_cabbage_bake",
+  "name": "Rustic potato and cabbage bake",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 3,
+  "ingredients": {
+   "russet_potatoes": 600,
+   "green_cabbage": 300,
+   "butter": 50,
+   "salt": 5
+  },
+  "description": "A comforting bake that uses inexpensive ingredients for a filling dish."
+ },
+ {
+  "id": "tuna_melt_on_bread",
+  "name": "Classic tuna melt on toasted bread",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 15,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "canned_tuna": 400,
+   "white_bread": 200,
+   "cheddar_cheese": 100,
+   "mayonnaise": 50
+  },
+  "description": "A quick and tasty meal with pantry staples that won't break the bank."
+ },
+ {
+  "id": "chicken_and_potato_roast",
+  "name": "Roasted chicken and potatoes",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 35,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "whole_chicken": 1200,
+   "russet_potatoes": 600,
+   "yellow_onions": 100
+  },
+  "description": "An easy roast chicken with potatoes that feeds a family affordably."
+ },
+ {
+  "id": "baked_pinto_bean_tacos",
+  "name": "Baked pinto bean and cheese tacos",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 25,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "canned_pinto_beans": 400,
+   "flour_tortillas": 200,
+   "cheddar_cheese": 100,
+   "salsa": 100
+  },
+  "description": "A fun and budget-friendly way to enjoy tacos baked with cheese and beans."
+ },
+ {
+  "id": "sweet_potato_and_black_bean_casserole",
+  "name": "Sweet potato and black bean casserole",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "sweet_potatoes": 600,
+   "canned_black_beans": 400,
+   "yellow_onions": 100,
+   "ground_cumin": 10
+  },
+  "description": "A nutritious and filling casserole using sweet potatoes and beans inexpensively."
+ },
+ {
+  "id": "baked_black_bean_and_rice_casserole",
+  "name": "Baked black bean and rice casserole with cheesy topping",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "long_grain_rice": 200,
+   "canned_black_beans": 400,
+   "canned_diced_tomatoes": 400,
+   "yellow_onions": 100,
+   "cheddar_cheese": 150
+  },
+  "description": "This hearty casserole combines rice and beans topped with cheese for a filling, budget-friendly meal."
+ },
+ {
+  "id": "cheesy_baked_eggs_with_rice",
+  "name": "Cheesy baked eggs with seasoned rice",
+  "slot": "breakfast",
+  "servings": 4,
+  "prep_min": 20,
+  "equipment": [
+   "oven"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "long_grain_rice": 200,
+   "large_eggs": 200,
+   "cheddar_cheese": 150,
+   "yellow_onions": 100
+  },
+  "description": "Simple baked eggs over seasoned rice topped with cheese makes for a warm, satisfying breakfast."
+ },
+ {
+  "id": "savory_oatmeal_with_bananas",
+  "name": "Savory oatmeal with caramelized onions and bananas",
+  "slot": "breakfast",
+  "servings": 4,
+  "prep_min": 15,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 3,
+  "ingredients": {
+   "rolled_oats": 200,
+   "yellow_onions": 100,
+   "bananas": 200,
+   "butter": 50
+  },
+  "description": "A comforting bowl of savory oatmeal topped with sweet caramelized onions and bananas."
+ },
+ {
+  "id": "fluffy_scrambled_eggs_with_corn_tortillas",
+  "name": "Fluffy scrambled eggs with corn tortillas",
+  "slot": "breakfast",
+  "servings": 4,
+  "prep_min": 10,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "large_eggs": 240,
+   "corn_tortillas": 200,
+   "butter": 30
+  },
+  "description": "Light and fluffy scrambled eggs served with warm corn tortillas for a filling breakfast."
+ },
+ {
+  "id": "peanut_butter_banana_oatmeal",
+  "name": "Peanut butter banana oatmeal",
+  "slot": "breakfast",
+  "servings": 4,
+  "prep_min": 10,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "rolled_oats": 200,
+   "peanut_butter": 100,
+   "bananas": 200
+  },
+  "description": "A creamy and satisfying oatmeal enriched with peanut butter and fresh banana."
+ },
+ {
+  "id": "cabbage_and_egg_stir_fry",
+  "name": "Cabbage and egg stir-fry",
+  "slot": "breakfast",
+  "servings": 4,
+  "prep_min": 15,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 3,
+  "ingredients": {
+   "green_cabbage": 400,
+   "large_eggs": 240,
+   "yellow_onions": 100
+  },
+  "description": "A simple stir-fry of cabbage and eggs for a nutritious start to your day."
+ },
+ {
+  "id": "sweet_potato_and_black_bean_hash",
+  "name": "Sweet potato and black bean hash",
+  "slot": "breakfast",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "sweet_potatoes": 400,
+   "canned_black_beans": 240,
+   "yellow_onions": 100
+  },
+  "description": "A hearty hash of sweet potatoes and black beans for a filling breakfast."
+ },
+ {
+  "id": "banana_and_yogurt_parfait",
+  "name": "Banana and yogurt parfait",
+  "slot": "breakfast",
+  "servings": 4,
+  "prep_min": 5,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "bananas": 200,
+   "plain_yogurt": 400,
+   "rolled_oats": 100
+  },
+  "description": "A refreshing parfait made with creamy yogurt, bananas, and crunchy oats."
+ },
+ {
+  "id": "chickpea_salad_with_cucumbers",
+  "name": "Chickpea salad with cucumbers and tomatoes",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 15,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "canned_chickpeas": 400,
+   "cucumbers": 200,
+   "roma_tomatoes": 200,
+   "yellow_onions": 100
+  },
+  "description": "A refreshing salad packed with protein-rich chickpeas and crunchy vegetables."
+ },
+ {
+  "id": "vegetable_and_black_bean_tacos",
+  "name": "Vegetable and black bean tacos with salsa",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 20,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "flour_tortillas": 200,
+   "canned_black_beans": 400,
+   "salsa": 100,
+   "yellow_onions": 100
+  },
+  "description": "Flavorful tacos filled with black beans and fresh veggies, perfect for a budget-friendly lunch."
+ },
+ {
+  "id": "lentil_soup_with_carrots",
+  "name": "Hearty lentil soup with carrots and onions",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "dried_lentils": 300,
+   "carrots": 200,
+   "yellow_onions": 100,
+   "chicken_broth": 800
+  },
+  "description": "A warm and filling lentil soup made with carrots and onions, perfect for chilly days."
+ },
+ {
+  "id": "ground_turkey_tacos_with_onions",
+  "name": "Ground turkey tacos with saut\u00e9ed onions",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 20,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "flour_tortillas": 200,
+   "ground_turkey": 400,
+   "yellow_onions": 100,
+   "salsa": 100
+  },
+  "description": "Savory ground turkey tacos served with saut\u00e9ed onions and fresh salsa."
+ },
+ {
+  "id": "smoky_black_bean_stew",
+  "name": "Smoky black bean stew with carrots",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "canned_black_beans": 400,
+   "carrots": 200,
+   "yellow_onions": 100,
+   "ground_cumin": 20
+  },
+  "description": "A rich and flavorful stew made with black beans and carrots, perfect for the budget-conscious."
+ },
+ {
+  "id": "chicken_stir_fry_with_broccoli",
+  "name": "Chicken stir-fry with broccoli and rice",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 25,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "long_grain_rice": 300,
+   "chicken_breast": 400,
+   "frozen_broccoli": 200,
+   "soy_sauce": 50
+  },
+  "description": "A quick and nutritious stir-fry of chicken and broccoli served over rice."
+ },
+ {
+  "id": "vegetarian_spaghetti_with_vegetables",
+  "name": "Vegetarian spaghetti with mixed vegetables",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 25,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "spaghetti": 400,
+   "frozen_mixed_vegetables": 200,
+   "tomato_sauce": 400
+  },
+  "description": "A simple and delicious vegetarian spaghetti dish loaded with colorful mixed vegetables."
+ },
+ {
+  "id": "potato_and_kidney_bean_curry",
+  "name": "Potato and kidney bean curry with rice",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "russet_potatoes": 400,
+   "canned_kidney_beans": 400,
+   "long_grain_rice": 300,
+   "ground_cumin": 20
+  },
+  "description": "A filling and flavorful curry made with potatoes and kidney beans served over rice."
+ },
+ {
+  "id": "simple_rice_and_black_bean_bowl",
+  "name": "Simple rice and black bean bowl with salsa",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 20,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "long_grain_rice": 300,
+   "canned_black_beans": 400,
+   "salsa": 100
+  },
+  "description": "A budget-friendly bowl of rice and black beans topped with zesty salsa."
+ },
+ {
+  "id": "vegetable_and_lentil_stew",
+  "name": "Vegetable and lentil stew with potatoes",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 35,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "dried_lentils": 300,
+   "russet_potatoes": 400,
+   "carrots": 200,
+   "yellow_onions": 100
+  },
+  "description": "A hearty stew filled with lentils, potatoes, and carrots for a nutritious meal."
+ },
+ {
+  "id": "chicken_and_corn_tortilla_soup",
+  "name": "Chicken and corn tortilla soup",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "chicken_thighs": 400,
+   "canned_corn": 200,
+   "corn_tortillas": 200,
+   "chicken_broth": 800
+  },
+  "description": "A comforting soup featuring chicken, corn, and crunchy tortilla strips."
+ },
+ {
+  "id": "spicy_black_bean_rice_bowl",
+  "name": "Spicy black bean rice bowl with saut\u00e9ed onions",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 20,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "long_grain_rice": 300,
+   "canned_black_beans": 400,
+   "yellow_onions": 200,
+   "ground_cumin": 10,
+   "salt": 5
+  },
+  "description": "A hearty bowl featuring rice, spicy black beans, and saut\u00e9ed onions on a budget."
+ },
+ {
+  "id": "cheesy_mac_and_peas",
+  "name": "Cheesy macaroni with peas and a crunchy topping",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 5,
+  "ingredients": {
+   "elbow_macaroni": 300,
+   "frozen_peas": 200,
+   "cheddar_cheese": 200,
+   "butter": 50,
+   "salt": 5
+  },
+  "description": "Creamy and cheesy elbow macaroni with peas, perfect for a filling budget meal."
+ },
+ {
+  "id": "cabbage_and_bean_tacos",
+  "name": "Cabbage and bean tacos with salsa",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 15,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "corn_tortillas": 240,
+   "canned_black_beans": 400,
+   "green_cabbage": 200,
+   "salsa": 100,
+   "salt": 5
+  },
+  "description": "Tasty tacos filled with black beans and shredded cabbage, easy on the wallet."
+ },
+ {
+  "id": "lentil_soup_with_bread",
+  "name": "Hearty lentil soup with crusty bread",
+  "slot": "lunch",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "dried_lentils": 300,
+   "yellow_onions": 100,
+   "carrots": 100,
+   "chicken_broth": 800,
+   "white_bread": 400
+  },
+  "description": "A filling lentil soup served with bread, making it a great budget meal."
+ },
+ {
+  "id": "chickpea_stew_with_rice",
+  "name": "Chickpea stew served over rice",
+  "slot": "dinner",
+  "servings": 4,
+  "prep_min": 30,
+  "equipment": [
+   "stovetop"
+  ],
+  "palatability": 4,
+  "ingredients": {
+   "long_grain_rice": 300,
+   "canned_chickpeas": 400,
+   "canned_diced_tomatoes": 400,
+   "yellow_onions": 100,
+   "ground_cumin": 10
+  },
+  "description": "A comforting chickpea stew over rice, a nutritious and economical choice."
+ }
+]

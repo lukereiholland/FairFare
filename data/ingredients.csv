@@ -1,0 +1,66 @@
+id,name,kroger_product,package_g,price_cents,ebt_eligible,kcal_100g,protein_100g,fiber_100g,sodium_mg_100g,sugar_100g,perishable_days,tags,aisle,staple
+long_grain_rice,Long grain white rice,Kroger Enriched Long Grain White Rice,907,179,true,365,7.1,1.3,5,0.1,0,,dry,false
+brown_rice,Brown rice,Kroger Long Grain Brown Rice,907,179,true,370,7.9,3.5,7,0.9,0,,dry,false
+rolled_oats,Old fashioned oats,Kroger 100% Whole Grain Old Fashioned Oats,1191,449,true,389,16.9,10.6,2,1.0,0,,dry,false
+spaghetti,Spaghetti,Kroger Spaghetti,454,133,true,371,13.0,3.2,6,2.7,0,,dry,false
+elbow_macaroni,Elbow macaroni,Kroger Elbow Macaroni,454,133,true,371,13.0,3.2,6,2.7,0,,dry,false
+all_purpose_flour,All-purpose flour,Kroger Bleached All Purpose Flour,2268,239,true,364,10.3,2.7,2,0.3,0,,dry,true
+dried_black_beans,Dried black beans,Kroger Black Beans,454,199,true,341,21.6,15.5,5,2.1,0,,dry,false
+dried_pinto_beans,Dried pinto beans,Kroger Pinto Beans,907,239,true,347,21.4,15.5,12,2.1,0,,dry,false
+dried_lentils,Dried lentils,Kroger Lentils,454,259,true,352,24.6,10.7,6,2.0,0,,dry,false
+peanut_butter,Creamy peanut butter,Kroger Creamy Peanut Butter,454,229,true,588,25.0,6.0,430,9.0,0,,dry,false
+soy_sauce,Soy sauce,Kroger Brewed Soy Sauce,444,199,true,53,8.0,0.8,5493,0.4,0,,dry,false
+mayonnaise,Mayonnaise,Kroger Classic Real Mayonnaise,850,379,true,680,1.0,0.0,635,1.0,0,egg,dry,false
+ketchup,Ketchup,Kroger Original Tomato Ketchup,680,219,true,101,1.0,0.3,900,22.0,0,,dry,false
+white_bread,White sandwich bread,Kroger White Sandwich Bread,567,179,true,266,8.9,2.7,490,5.0,7,,bakery,false
+flour_tortillas,Flour tortillas (10 ct),Kroger Soft Taco Size Flour Tortillas,496,199,true,310,8.2,3.0,640,2.5,14,,bakery,false
+corn_tortillas,Corn tortillas (30 ct),Kroger Soft Traditional White Corn Tortillas,780,199,true,218,5.7,6.3,45,0.9,14,,bakery,false
+canned_black_beans,Black beans (can),Kroger Black Beans,425,125,true,91,6.0,7.0,300,0.3,0,,canned,false
+canned_pinto_beans,Pinto beans (can),Pinto Beans,439,149,true,96,5.5,5.5,280,0.5,0,,canned,false
+canned_kidney_beans,Kidney beans (can),Kroger Dark Red Kidney Beans,439,149,true,90,6.0,6.0,280,1.0,0,,canned,false
+canned_chickpeas,Chickpeas (can),Kroger Garbanzo Beans,439,125,true,120,6.7,5.5,280,1.0,0,,canned,false
+canned_diced_tomatoes,Diced tomatoes (can),Kroger Diced Tomatoes,411,159,true,18,0.9,1.0,130,2.5,0,,canned,false
+tomato_sauce,Tomato sauce (can),Kroger Tomato Sauce,425,100,true,24,1.3,1.5,450,3.5,0,,canned,false
+tomato_paste,Tomato paste (can),Kroger Tomato Paste,170,99,true,82,4.3,4.1,60,12.0,0,,canned,false
+canned_tuna,Chunk light tuna (can),Kroger Wild Caught Chunk Light Tuna in Water,142,97,true,86,19.0,0.0,250,0.0,0,fish,canned,false
+canned_corn,Sweet corn (can),Kroger White Whole Kernel Sweet Corn,432,100,true,61,2.0,1.5,200,3.0,0,,canned,false
+canned_green_beans,Green beans (can),Kroger Cut Canned Green Beans,411,99,true,20,1.0,1.8,250,1.0,0,,canned,false
+chicken_broth,Chicken broth,Kroger 99% Fat Free Chicken Broth,907,159,true,5,0.6,0.0,340,0.2,0,poultry,canned,false
+salsa,Salsa,Kroger Traditional Medium Salsa,454,219,true,30,1.3,1.5,480,3.0,0,,canned,false
+yellow_onions,Yellow onions (3 lb bag),Kroger Yellow Onion,1361,259,true,40,1.1,1.7,4,4.2,21,,produce,false
+russet_potatoes,Russet potatoes (5 lb bag),Kroger Russet Potatoes Bag,2268,369,true,79,2.1,1.8,6,0.6,21,,produce,false
+carrots,Carrots (2 lb bag),Kroger Whole Carrots Bag,907,229,true,41,0.9,2.8,69,4.7,21,,produce,false
+bananas,Bananas (per lb),Bananas,454,45,true,89,1.1,2.6,1,12.2,5,,produce,false
+gala_apples,Gala apples (3 lb bag),Kroger Gala Apples – 3 Pound Bag,1361,319,true,52,0.3,2.4,1,10.4,21,,produce,false
+navel_oranges,Navel oranges (4 lb bag),Kroger Fresh Navel Oranges Bag,1814,299,true,47,0.9,2.4,0,9.4,21,,produce,false
+green_cabbage,Green cabbage (per lb),"Green Cabbage, 1 ct",454,89,true,25,1.3,2.5,18,3.2,21,,produce,false
+roma_tomatoes,Roma tomatoes (per lb),"Fresh Roma Tomato, 1 ct",454,149,true,18,0.9,1.2,5,2.6,7,,produce,false
+green_bell_pepper,Green bell pepper (each),"Fresh Large Green Bell Pepper, 1 ct",160,129,true,20,0.9,1.7,3,2.4,10,,produce,false
+celery,Celery (bunch),"Sleeved Celery, 1 ct",450,103,true,14,0.7,1.6,80,1.3,14,,produce,false
+broccoli_crowns,Broccoli crowns (per lb),"Broccoli Crowns, 1 Lb",454,249,true,34,2.8,2.6,33,1.7,7,,produce,false
+sweet_potatoes,Sweet potatoes (per lb),"Sweet Potato, 1 ct",454,149,true,86,1.6,3.0,55,4.2,21,,produce,false
+cucumbers,Cucumber (each),"Cucumber, 1 ct",300,89,true,15,0.7,0.5,2,1.7,7,,produce,false
+iceberg_lettuce,Iceberg lettuce (head),"Iceberg Lettuce, 1 Head",600,219,true,14,0.9,1.2,10,2.0,7,,produce,false
+frozen_spinach,Frozen chopped spinach,"Kroger Frozen Spinach Chopped, 12 oz",340,149,true,29,3.2,2.4,74,0.5,0,,frozen,false
+frozen_mixed_vegetables,Frozen mixed vegetables,"Kroger Frozen Mixed Vegetables, 32 oz",907,319,true,65,2.6,4.0,40,3.0,0,,frozen,false
+frozen_broccoli,Frozen chopped broccoli,"Kroger Frozen Broccoli Chopped, 12 oz",340,169,true,30,2.8,3.0,20,1.5,0,,frozen,false
+frozen_peas,Frozen sweet peas,"Kroger Frozen Sweet Green Peas, 12 oz",340,129,true,77,5.2,4.5,110,5.0,0,,frozen,false
+large_eggs,Large eggs (dozen),"Kroger Grade A Large White Eggs, 12 ct",600,159,true,143,12.6,0.0,142,0.4,21,egg,dairy,false
+whole_milk,Whole milk (gallon),"Kroger Vitamin D Whole Milk Gallon, 1 gal",3785,319,true,61,3.2,0.0,43,5.0,10,dairy,dairy,false
+plain_yogurt,Plain yogurt,"Kroger Plain Low Fat Yogurt Tub, 32 oz",907,299,true,61,3.5,0.0,46,4.7,14,dairy,dairy,false
+cheddar_cheese,Cheddar cheese block,"Kroger Mild Cheddar Cheese Block, 8 oz",226,369,true,403,22.9,0.0,621,0.5,21,dairy,dairy,false
+shredded_mozzarella,Shredded mozzarella,"Kroger Mozzarella Shredded Cheese, 8 oz",226,200,true,300,22.0,0.0,630,1.0,21,dairy,dairy,false
+butter,Salted butter,Kroger Salted Butter Sticks,454,349,true,717,0.9,0.0,640,0.1,30,dairy,dairy,false
+chicken_thighs,Bone-in chicken thighs (per lb),Heritage Farm Bone In Skin On Chicken Thighs,454,199,true,180,17.0,0.0,85,0.0,3,meat|poultry,meat,false
+chicken_drumsticks,Chicken drumsticks (per lb),Heritage Farm Bone In Skin On Chicken Drumsticks,454,179,true,160,18.0,0.0,90,0.0,3,meat|poultry,meat,false
+chicken_breast,Boneless skinless chicken breast (per lb),Heritage Farm Boneless Skinless Chicken Breasts,454,199,true,120,22.5,0.0,65,0.0,3,meat|poultry,meat,false
+whole_chicken,Whole chicken (per lb),Heritage Farm Bone In Skin On Whole Young Chicken,454,549,true,215,18.6,0.0,70,0.0,3,meat|poultry,meat,false
+ground_turkey,85% lean ground turkey (1 lb),Kroger 85/15 Fresh Ground Turkey Tray 1 LB,454,499,true,150,19.0,0.0,70,0.0,3,meat|poultry,meat,false
+smoked_sausage,Smoked sausage,Kroger Harwood Smoked Sausage Pork and Beef Link,397,300,true,300,12.0,0.0,900,2.0,14,meat|pork,meat,false
+sliced_turkey,Sliced turkey lunch meat,Kroger Turkey Breast Oven Roasted Deli Thin Sliced,255,429,true,100,17.0,0.0,1000,1.0,7,meat|poultry,meat,false
+rotisserie_chicken,Rotisserie chicken (hot),Home Chef Classic Seasoned Fresh Roasted Hot Chicken (Kroger hot deli),907,799,false,200,25.0,0.0,400,0.0,3,meat|poultry,other,false
+deli_fried_chicken,Deli fried chicken 8 piece (hot),Home Chef 8-Piece Hot Fried Chicken (Kroger deli),907,899,false,260,20.0,0.5,600,0.0,3,meat|poultry,other,false
+vegetable_oil,Vegetable oil,Kroger 100% Pure Vegetable Oil,1360,379,true,884,0.0,0.0,0,0.0,0,,dry,true
+salt,Iodized salt,Kroger Iodized Salt,737,89,true,0,0.0,0.0,38758,0.0,0,,dry,true
+ground_cumin,Ground cumin,Kroger Ground Cumin Shaker,46,399,true,375,17.8,10.5,168,2.3,0,,dry,true
+sugar,Granulated sugar,Kroger Pure Cane Granulated Sugar,1814,529,true,387,0.0,0.0,1,100.0,0,,dry,true

@@ -1,0 +1,61 @@
+/* App feel: touch behavior, pressed feedback, screen transitions, skeleton loading. */
+
+html, body { overscroll-behavior: none; }
+
+button, .opt, .chip, .navbtn, .tag {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+button:active { transform: scale(0.98); }
+.navbtn:active { transform: none; }
+
+.screen { animation: screen-in 0.18s ease-out; }
+@keyframes screen-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+.cta-pinned {
+  position: sticky;
+  bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+  z-index: 4;
+  padding-top: 8px;
+  background: linear-gradient(to top, var(--paper) 70%, transparent);
+}
+
+.skeleton {
+  background: var(--paper-alt);
+  border-radius: 12px;
+  min-height: 18px;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+@keyframes pulse { 50% { opacity: 0.55; } }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+/* ---- feedback polish: press states, sheet slide, photo fade, light hover for pointer devices ---- */
+.meal-card, .daycol, .opt, .chip, .profile-row, .storecmp__row, .cook-tile, .btn-line, .btn-primary, .adjust-btn, .iconbtn {
+  transition: transform 0.12s ease, background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+}
+.meal-card__body:active, .daycol__slot:active, .opt:active, .chip:active, .profile-row:active, .storecmp__row:active, .cook-tile:active { transform: scale(0.985); }
+.sheet__panel { animation: sheet-up 0.22s cubic-bezier(0.2, 0.8, 0.2, 1); }
+@keyframes sheet-up { from { transform: translateY(28px); opacity: 0.5; } to { transform: none; opacity: 1; } }
+.sheet__backdrop { animation: fade-in 0.2s ease; }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+.meal-photo__img { animation: photo-in 0.35s ease; }
+@keyframes photo-in { from { opacity: 0; } to { opacity: 1; } }
+.navbtn .ic { transition: transform 0.15s ease; }
+.navbtn.active .ic { transform: translateY(-1px) scale(1.1); }
+.tag { transition: background-color 0.15s ease, color 0.15s ease; }
+@media (hover: hover) and (pointer: fine) {
+  .meal-card:hover, .daycol:hover, .opt:hover, .cook-tile:hover, .storecmp__row:hover { border-color: var(--green); }
+  .chip:hover, .btn-line:hover, .adjust-btn:hover { border-color: var(--green); color: var(--green-deep); }
+  .btn-primary:hover, .iconbtn--gold:hover, .iconbtn--dark:hover { filter: brightness(1.07); }
+  .navbtn:hover { color: var(--green); }
+  .profile-row:hover .profile-row__label { color: var(--green-deep); }
+  .link:hover { color: var(--green-deep); }
+}

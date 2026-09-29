@@ -1,0 +1,86 @@
+/* Recipes + Cookbook screens, the MealCard action column, and the sticky PlanBar. Class names:
+   layout:   .app.has-planbar
+   planbar:  .planbar .planbar__text .planbar__cta
+   chrome:   .iconbtn--gold .topbar__text
+   card:     .meal-card (outer shell) .meal-card--plain .meal-card__actions .meal-card__heart(.on)
+             .meal-card__pillbtn .meal-card__pill .meal-card__pill--in .tag.fact
+   recipes:  .home-chips .home-chips--sm .home-list .home-skel .home-skel__photo .home-skel__lines
+   cookbook: .cook-intro .cook-empty .cook-empty__icon .cook-foot
+   Uses tokens from tokens.css, .chip / .tag / .iconbtn / .plancard / .btn-line from fairfare.css, .skeleton from app.css,
+   and .meal-card__body / __text / __name / __desc / __tags from meals.css. */
+
+/* ---- room for the PlanBar above the tab bar (App.tsx sets the class) ---- */
+.app.has-planbar { padding-bottom: calc(168px + env(safe-area-inset-bottom, 0px)); }
+
+/* ---- PlanBar ---- */
+.planbar {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  bottom: calc(64px + env(safe-area-inset-bottom, 0px));
+  max-width: 390px; /* the .app column is 430px with 20px side padding, so the bar lines up with content */
+  margin: 0 auto;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  padding: 12px 16px;
+  background: var(--green-deep);
+  color: #F1EEDD;
+  border: 0;
+  border-radius: 16px;
+  font-size: 14px;
+  text-align: left;
+}
+.planbar__text { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.planbar__cta { flex: none; color: var(--gold); font-weight: 700; white-space: nowrap; }
+.planbar.loading { opacity: 0.7; }
+@media print { .planbar { display: none; } }
+
+/* ---- gold round button in the topbar (Recipes, Cookbook, Plan) ---- */
+.iconbtn--gold { width: 44px; height: 44px; margin-left: 0; background: var(--gold); color: var(--green-deep); }
+.iconbtn--gold .ic { width: 20px; height: 20px; }
+.topbar__text { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+
+/* ---- MealCard shell: the card look moves to the outer div so the action column sits beside the body button.
+   Scoped selectors win over the single-class rules in meals.css regardless of load order. ---- */
+.meal-card { display: flex; align-items: stretch; background: var(--card); border: 1px solid var(--line); border-radius: 18px; }
+.meal-card .meal-card__body { flex: 1 1 auto; min-width: 0; width: auto; background: none; border: 0; border-radius: 18px 0 0 18px; padding-right: 6px; }
+.meal-card--plain .meal-card__body { border-radius: 18px; padding-right: 12px; }
+.meal-card__actions { flex: none; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 4px 6px 4px 0; }
+.meal-card__heart { width: 44px; height: 44px; border: 0; background: none; padding: 0; display: inline-flex; align-items: center; justify-content: center; color: var(--ink-soft); }
+.meal-card__heart .ic { width: 22px; height: 22px; }
+.meal-card__heart.on { color: var(--berry); }
+.meal-card__pillbtn { min-width: 44px; min-height: 44px; border: 0; background: none; padding: 0 2px; display: inline-flex; align-items: center; justify-content: center; }
+.meal-card__pill { display: inline-flex; align-items: center; gap: 4px; padding: 6px 10px; border-radius: var(--radius-pill); background: var(--green); color: #fff; font-size: 12.5px; font-weight: 700; white-space: nowrap; line-height: 1; }
+.meal-card__pill .ic { width: 14px; height: 14px; }
+.meal-card__pill--in { background: color-mix(in srgb, var(--green) 14%, transparent); color: var(--green); }
+.tag.fact { background: color-mix(in srgb, var(--green) 12%, transparent); color: var(--ink); }
+
+/* ---- filter chips (horizontal scroll) ---- */
+.home-chips { display: flex; gap: 8px; overflow-x: auto; margin: 0 -20px 12px; padding: 2px 20px 6px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.home-chips::-webkit-scrollbar { display: none; }
+.home-chips .chip { flex: none; min-height: 44px; }
+/* Slot sub-filter: visually smaller chips; a pseudo-element keeps the tap area at 44px. */
+.home-chips--sm { margin-bottom: 16px; }
+.home-chips--sm .chip { position: relative; min-height: 36px; padding: 6px 12px; font-size: 13px; }
+.home-chips--sm .chip::before { content: ""; position: absolute; inset: -4px 0; }
+
+/* ---- meal list ---- */
+.home-list { display: flex; flex-direction: column; gap: 10px; }
+
+/* ---- skeleton rows while the meal pool loads ---- */
+.home-skel { display: flex; gap: 12px; padding: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 18px; }
+.home-skel__photo { width: 84px; height: 84px; border-radius: 14px; flex: none; }
+.home-skel__lines { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 8px; padding-top: 4px; }
+
+/* ---- Cookbook ---- */
+.cook-intro { margin: -6px 0 16px; font-size: 13px; line-height: 1.4; }
+.cook-empty { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; padding: 28px 18px; }
+.cook-empty__icon { width: 32px; height: 32px; color: var(--berry); margin-bottom: 4px; }
+.cook-empty .btn-line { margin-top: 10px; }
+.cook-foot { margin-top: 16px; }
+
+.meal-card__pill--nofit { background: color-mix(in srgb, var(--berry) 14%, transparent); color: var(--berry); }
