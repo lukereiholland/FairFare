@@ -91,7 +91,7 @@ The CP-SAT solver handles constraints such as:
 Benchmark
 
 We compared FairFare’s hybrid AI + optimization approach against a plain-LLM baseline across 9 evaluation runs.
-```
+
 ## Benchmark
 
 We compared FairFare's hybrid AI + optimization approach against a plain-LLM baseline across 9 evaluation runs.
@@ -103,7 +103,7 @@ We compared FairFare's hybrid AI + optimization approach against a plain-LLM bas
 | Meal slots covered | 100% | 100% |
 | Plans over budget | 0% | 0% |
 | Mean evaluation time | 4.0 s | 56 ms |
-```
+
 The hybrid system eliminated ingredient-sufficiency violations while improving nutrition-target satisfaction and preserving budget and meal-coverage constraints.
 
 > Note: the hybrid benchmark reused a cached candidate meal pool and measured the optimization stage fresh on each run.
